@@ -22,7 +22,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
  
         <main className="flex-grow bg-blue-950 px-6 py-4 m-4">{children}</main>
  
-        <footer className="bg-gray-800 text-white text-center py-4 fixed">
+        <footer className="bg-gray-800 text-white text-center py-4">
           <p>© 2025 Made with ❤️ by Harshit Kandpal</p>
         </footer>
       </body>
