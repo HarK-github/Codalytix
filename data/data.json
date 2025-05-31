@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "github": "alicejohnson",
+      "points": 120,
+      "pullRequests": 15
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "github": "bobsmith",
+      "points": 100,
+      "pullRequests": 12
+    },
+    {
+      "id": 3,
+      "name": "Charlie Lee",
+      "github": "charlielee",
+      "points": 90,
+      "pullRequests": 10
+    }
+  ]
+  
