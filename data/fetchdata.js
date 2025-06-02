@@ -1,5 +1,6 @@
 import { Octokit } from "@octokit/rest";
 
+export const dynamic = 'force-dynamic';
 const octokit = new Octokit({
   auth: process.env.GIT_TOKEN,
 });
