@@ -1,4 +1,5 @@
 import { Octokit } from "@octokit/rest";
+import { cache } from "react";
 
 export const dynamic = 'force-dynamic';
 const octokit = new Octokit({
@@ -30,7 +31,7 @@ function extractPointsFromLabels(labels) {
 export async function fetch_solved_issues() {
   const result = await octokit.request("GET /search/issues", {
     q: "repo:Hark-github/Taskify is:pr is:merged",
-  });
+  },{cache:'no-store'});
 
   const items = result.data.items;
   const contributors = {};
