@@ -24,14 +24,7 @@ export default function Page() {
         
       </Link>
 
-      <a
-        href="https://github.com/OpenLake/DevLabs-2025"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="hover:scale-[105%] inline-block text-white bg-blue-600 m-4 px-6 py-3 rounded-xl text-lg shadow-md transition-transform duration-300"
-          >
-        View Repository on GitHub
-      </a>
+      
     </div>
   )
 }
