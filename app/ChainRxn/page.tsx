@@ -16,29 +16,7 @@ export default function Page() {
         <br />
         From building your own blockchain to interacting with real Bitcoin nodes – ChainRxn is your Web3 jumpstart.
       </p>
-
-      <div className="text-lg text-gray-800 max-w-3xl mb-8 space-y-3">
-        <p><span className="font-bold">🗓 Bootcamp Info</span><br />
-        <strong>Duration:</strong> 10th June – 10th July<br />
-        <strong>Mode:</strong> Hybrid (Online + Optional Meetups)<br />
-        <strong>Eligibility:</strong> Open to all IIT Bhilai students<br />
-        <strong>Club:</strong> Blockchain at IIT Bhilai (BIB)
-        </p>
-
-        <p><span className="font-bold">🛠 Projects You'll Build</span><br />
-        <strong>🧱 Project 1:</strong> Build Your Own Blockchain<br />
-        <strong>🌐 Project 2:</strong> Make Blockchain Interactive<br />
-        <strong>₿ Project 3:</strong> Bitcoin Node Transactions
-        </p>
-
-        <p><span className="font-bold">🎤 Meet the Industry Experts</span><br />
-        Exclusive sessions with Web3 founders, blockchain engineers, and IIT alumni in crypto.
-        </p>
-
-        <p><span className="font-bold">🎓 What You'll Learn</span><br />
-        Blockchain internals, peer-to-peer architecture, dApps, Bitcoin RPCs, scripting, and more.
-        </p>
-      </div>
+ 
 
       {/* Navigation Button */}
       <Link
