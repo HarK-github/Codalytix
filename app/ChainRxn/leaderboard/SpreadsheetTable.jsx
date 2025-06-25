@@ -63,7 +63,7 @@ function Card({ rank, name, avatar, essential, innovative, total }) {
     <div className="flex flex-col sm:flex-row items-center bg-white rounded-xl shadow-md p-4 sm:p-6 hover:shadow-lg transition-shadow cursor-default w-full">
       {/* Rank */}
       <div className="text-xl sm:text-2xl font-bold text-gray-700 w-full sm:w-10 text-center sm:text-left mb-2 sm:mb-0">
-        {rank}
+      
       </div>
 
       {/* Avatar */}
